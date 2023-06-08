@@ -20,7 +20,7 @@ function hayWhiskey() {
   if(hay_oferta){
     var now = new Date();
     var fechayhora = Utilities.formatDate(now, 'America/Argentina/Buenos_Aires', 'dd/MM/yyyy HH:mm')
-    var mensaje = "*ATENCIÓN* | Se encontraron ofertas de Whiskey en " + url + "\n" + fechayhora;
+    var mensaje = "*ATENCIÓN* | Se encontraron ofertas de Whiskey en COTO Digital.\n<" + url + "|Click acá para ver las ofertas>\n" + fechayhora;
     var payload = {"text": mensaje};
     
     var options = {
